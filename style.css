@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI';
+    line-height: 1.5;
+}
+.header{
+    background-color: #069;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.header-text{
+    margin: 0;
+
+}
+
+.section{
+    padding: 1rem 2rem;
+}
+.section-content{
+    padding-left: 1rem;
+}
+
+.section-accent{
+    background-color: #069;
+    color: white;
+}
+.skills-section{
+    
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.project-section, .skills-section{
+    list-style: none;
+    margin: 0;
+}
+.project-section{
+    color: #777;
+}
+
+.project-list-item{
+    margin-bottom: 1rem;
+}
+.project-list-item:last-child{
+    margin: 0;
+}
+
+.contact-section{
+    margin: 1rem 0;
+}
+.input{
+    border: 1px solid hsl(0, 0%, 70%);
+    outline: none;
+    padding: .5em;
+    border-radius: .3em;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+    
+}
+.input:focus{
+    border:1px solid hsl(200, 100%, 40%) ;
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 20%);
+
+}
+.no-resize{
+    resize: none;
+}
+
+.button{
+    background-color: hsl(200, 100%, 40%);
+    border: 1px solid hsl(200, 100%, 20%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .3em;
+    color: white;
+}
+
+.button:focus,  .button:hover{
+    background-color: hsl(200, 100%, 30%);
+    box-shadow: 0 0 2px 0 hsl(200, 100%, 20%);
+}
+
+.footer{
+    background-color: #069;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
