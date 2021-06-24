@@ -5,7 +5,7 @@ body{
 }
 .header{
     background-color: rgb(135, 0, 153);
-    color: white;
+    color: green;
     padding: 1.5rem;
     text-align: center;
 }
