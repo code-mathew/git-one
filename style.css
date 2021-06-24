@@ -5,8 +5,10 @@ body{
 }
 .header{
     background-color: rgb(135, 0, 153);
-    color: green;
     padding: 2rem;
+    color: white;
+    padding: 1.5rem;
+
     text-align: center;
 }
 
